@@ -61,7 +61,7 @@ You stay in control:
 - Otherwise, if it can write files (for example in Claude Code), it keeps a readable Markdown profile at `~/.learn-me/profile.md`. You can open, edit or delete it anytime, or ask for a different location.
 - If it can do neither, it gives you a short "About me" card at the end of a chat that you can save and paste back later.
 
-Claude tells you when it saves something, asks before keeping anything sensitive, and never stores passwords, ID numbers or bank details. Say "what do you know about me?" to see everything, or "forget that" to remove something.
+Unless you asked Claude to get to know you, it asks before it starts keeping notes at all. It tells you where the notes live, asks before keeping anything sensitive, and never stores passwords, ID numbers or bank details. Say "what do you know about me?" to see everything, or "forget that" to remove something.
 
 ## What's inside
 

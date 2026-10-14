@@ -8,6 +8,7 @@ Guidelines:
 - **Date things** (`YYYY-MM-DD`) so you can tell what's current and show progress over time.
 - **Mark guesses.** Anything you inferred but haven't confirmed gets `(guess)` until they confirm.
 - **Keep it scannable.** It's read at the start of conversations; short bullets work best.
+- **Name not known yet?** Use a placeholder title like `# About me (name TBD)` and add "ask what to call them" to Follow-ups.
 - **Sensitive things** go in only with the user's clear okay. Never store passwords, ID numbers, bank details or other secrets.
 
 ---
