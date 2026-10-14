@@ -41,6 +41,22 @@ For one project only, copy the folder into that project's `.claude/skills/` inst
 
 **Claude apps (web / desktop)**: zip the `learn-me` folder and upload it in the Skills section of your Claude settings.
 
+## Use it with other AI tools
+
+Learn Me is written in the open [Agent Skills](https://agentskills.io) format: a `SKILL.md` file plus reference files, with nothing Claude-specific inside. Several other AI tools can load it:
+
+| Tool | Where the `learn-me` folder goes |
+|---|---|
+| **OpenAI Codex** (CLI, IDE extension, app) | A Codex skills folder, such as `.agents/skills/` in your project. See the [Codex skills docs](https://developers.openai.com/codex/skills) for current locations |
+| **Gemini CLI** | `~/.gemini/skills/` (all projects) or `.gemini/skills/` (one project). See the [Gemini CLI skills docs](https://geminicli.com/docs/cli/skills/) |
+| **Hermes Agent** (Nous Research) | Hermes Agent's skills folder. See the [Hermes Agent docs](https://hermes-agent.org/). A Hermes *model* on its own needs an app like this to load skills |
+
+`.agents/skills/learn-me/` inside a project is a shared location that several of these tools read.
+
+**Chat apps without skill support** (for example a custom GPT, a Gemini Gem, or any chatbot with custom instructions): upload the four `.md` files as knowledge files. Then add a short instruction like *"Follow SKILL.md to get to know me, remember what I share, and show up like a supportive friend."* The app's own memory feature takes the place of the profile file. If it has none, ask for the "About me" card at the end of each chat.
+
+Because the profile is a plain file (`~/.learn-me/profile.md`), every tool on the same computer that uses this skill can share it, so they all know you. How warm and careful the conversations feel still depends on the model behind the tool.
+
 ## Try it
 
 - "Get to know me."

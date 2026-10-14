@@ -211,7 +211,7 @@ When they ask "what do you know about me?", don't dump the raw file. Give a warm
 When you can't save files or memory, offer a compact card at the end of a session that the user can keep and paste back later or into custom instructions:
 
 ```markdown
-About me (from my chats with Claude, updated 2026-10-14)
+About me (from my AI chats, updated 2026-10-14)
 - Call me Lin. Chat in Traditional Chinese, code in English.
 - Short, casual answers; dry humor welcome. Be straight with feedback, but start with one thing that's working.
 - Please avoid: lecturing, comparing me to others, diet talk.
